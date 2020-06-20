@@ -6,6 +6,8 @@ http://www.templatemo.com/tm-472-blaster
 
 */
 
+/*Color patterns: Yellow: ffff00*/
+
 body
 {
 	background: #ffffff;
@@ -42,7 +44,7 @@ p {
 
 #about,
 #team, #contact {
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 }
 
@@ -52,6 +54,21 @@ p {
 }
 
 /* start navigation */
+#logo-pos{
+  position: relative;
+}
+
+#logo-pos img {
+position: absolute;
+top: -45px;
+right:-300px;
+
+display: block;
+height: 350px;
+width: auto;
+
+}
+
 .custom-navbar {
     background: #ffffff;
     margin-bottom: 0;
@@ -76,7 +93,7 @@ p {
 	transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav li a:hover {
-  	background: #FFD321;
+  	background: #ffff00;
   	transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav > li > a:focus {
@@ -84,7 +101,7 @@ p {
   	outline: none;
 }
 .custom-navbar .nav li.active > a {
-    background-color: #FFD321;
+    background-color: #ffff00;
 }
 .custom-navbar .navbar-toggle {
     border: none;
@@ -124,6 +141,7 @@ p {
           align-items: center;
   height: 100vh;
   text-align: center;
+  border-radius: 0 0 15% 15%;
 }
 #home hr {
   border: 2px solid #404040;
